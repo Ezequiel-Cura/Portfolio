@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from "../assets/EZE EC-05.svg"
 import {Link} from "react-scroll"
+import cv from "../assets/CV/CV English Ezequiel Santiago cura.pdf"
 
 export default function Navbar({homeInView,aboutInView,skillsInView,projectsInView,contactInView}:any) {
     const [nav,setNav] = useState(false)
@@ -98,7 +99,7 @@ export default function Navbar({homeInView,aboutInView,skillsInView,projectsInVi
             <ul>
                 <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '>
                     <a
-                    className='flex justify-between items-center w-full text-gray-300'
+                    className='flex justify-between items-center w-full h-full text-gray-300'
                     href='https://www.linkedin.com/in/ezequiel-cura/'
                     target='_blank'
                     >
@@ -107,7 +108,7 @@ export default function Navbar({homeInView,aboutInView,skillsInView,projectsInVi
                 </li>
                 <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a
-                    className='flex justify-between items-center w-full text-gray-300'
+                    className='flex justify-between items-center w-full h-full text-gray-300'
                     href='https://github.com/Ezequiel-Cura'
                     target='_blank'
                     >
@@ -116,8 +117,8 @@ export default function Navbar({homeInView,aboutInView,skillsInView,projectsInVi
                 </li>
                 <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                     <a
-                    className='flex justify-between items-center w-full text-gray-300'
-                    href='/'
+                    className='flex justify-between items-center w-full h-full text-gray-300'
+                    href='mailto:ezequiel28cura@gmail.com'
                     target='_blank'
                     >
                         Email <HiOutlineMail size={30} className="mr-[-10px] lg:mr-0 duration-300"/>
@@ -125,10 +126,10 @@ export default function Navbar({homeInView,aboutInView,skillsInView,projectsInVi
                 </li>
                 <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a
-                    className='flex justify-between items-center w-full text-gray-300'
-                    href='/'
+                    className='flex justify-between items-center w-full h-full text-gray-300'
+                    href={cv}
                     target='_blank'
-                    
+                    download={"CV Ezequiel Cura"}
                     >
                         Resume <BsFillPersonLinesFill size={30} className="mr-[-10px] lg:mr-0 duration-300"/>
                     </a>
