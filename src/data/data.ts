@@ -42,7 +42,7 @@ const data:IProjects[] = [
         name:"PokemonApi",
         image:pokemonImage,
         github:"https://github.com/Ezequiel-Cura/Pi-Pokemon-FT25a",
-        demo:"",
+        demo:"https://pi-pokemon-ft-25a.vercel.app",
         description:"Es una pagina web en donde podras visualizar una lista de pokemons traida de una API, mas los pokemons creados por el usuario. Al entrar a la pagina te encotras con un Landingm que tiene un boton que redirecciona al Home. Aqui esta toda la logica, en el Home es donde se pueden ver todos los Pokemons, tambien se pueden filtrar y ordenar, o buscar un pokemon por nombre en la searchBar. Hay varios botones donde te pueden llevar a una pagina para crear Pokemons, un paginado para ver todos los pokemons, y un boton que te lleva a los detalles del pokemons seleccionado, donde podras ver mas informacion que la vista en el Home."
     },
 ]
