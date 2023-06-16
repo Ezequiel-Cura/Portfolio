@@ -18,10 +18,7 @@ export default function About({refAbout}:any) {
                 </div>
                 <div>
                     <p>I am passionate about building excellent software that improves
-                    the lives of those around me. I specialize in creating software
-                    for clients ranging from individuals and small-businesses all the
-                    way to large enterprise corporations. What would you do if you had
-                    a software expert available at your fingertips?</p>  
+                    the lives of those around me. In addition to my outstanding technical skills, with me you will have a software developer with excellent analytical thinking, with a desire and determination to learn, to give my best in anything assigned to me, with the highest expectations to start with my working life, consolidate, strengthen and develop all my skills.</p>  
                 </div>
             </div>
         </div>
