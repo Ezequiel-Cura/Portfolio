@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from "../assets/EZE EC-05.svg"
 import {Link} from "react-scroll"
-import cv from "../assets/CV/CV English Ezequiel Santiago Cura.pdf"
+import cv from "../assets/CV/CVEnglishEzequielSantiagoCura.pdf"
 
 export default function Navbar({homeInView,aboutInView,skillsInView,projectsInView,contactInView}:any) {
     const [nav,setNav] = useState(false)
