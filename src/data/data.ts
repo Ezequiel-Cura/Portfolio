@@ -34,7 +34,7 @@ const data:IProjects[] = [
         name:"Finanzas Personal",
         image:finanzasPersonales,
         github:"https://github.com/Ezequiel-Cura/Proyecto-Final",
-        demo:"https://proyecto-final-lime-beta.vercel.app/",
+        demo:"https://proyecto-final-lime-beta.vercel.app",
         description:"Desarrollamos la App trabajando en el Front con React, Redux Toolkit, principalmente CSS puro, y algunas librerías como Material UI, Numeral.js. En el Back, el desarrollo fue con Node.js y Express. La base de datos fue creada usando MongoDb Atlas y Mongoose. Trabajamos con la metodología Scrum y la plataforma Trello. Deployado con Herouku y Vercel."
     },
     {
